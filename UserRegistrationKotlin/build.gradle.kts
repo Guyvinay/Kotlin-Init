@@ -36,6 +36,8 @@ dependencies {
 	annotationProcessor("org.projectlombok:lombok")
 	implementation("org.springframework.boot:spring-boot-starter-validation")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	implementation("io.springfox:springfox-swagger-ui:3.0.0")
+
 }
 
 tasks.withType<KotlinCompile> {
